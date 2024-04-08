@@ -1,3 +1,3 @@
 # Fabricpy
 
-Python API to interact with Microsoft Fabric.
+Pure Pythonic API to interact with Microsoft Fabric, wrapping `Microsoft.AnalysisServices` .NET package.
