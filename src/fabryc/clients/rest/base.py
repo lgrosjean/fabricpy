@@ -1,6 +1,6 @@
 import requests
 
-from fabric.auth import get_token
+from fabryc.auth import get_token
 
 
 class BaseRestClient:

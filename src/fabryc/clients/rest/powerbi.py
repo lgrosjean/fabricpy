@@ -1,4 +1,4 @@
-from fabric.clients.rest.base import BaseRestClient
+from fabryc.clients.rest.base import BaseRestClient
 
 
 class PowerBIRestClient(BaseRestClient):

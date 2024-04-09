@@ -7,7 +7,7 @@ from pathlib import Path
 
 import requests
 
-from fabric.clients.rest.base import BaseRestClient
+from fabryc.clients.rest.base import BaseRestClient
 
 
 class ItemType(StrEnum):

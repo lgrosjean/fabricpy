@@ -1,7 +1,7 @@
 import pandas as pd
 
-from fabric.semantic_model import SemanticModel
-from fabric.workspace import Workspace
+from fabryc.semantic_model import SemanticModel
+from fabryc.workspace import Workspace
 
 
 def list_datasets(workspace_name: str) -> pd.DataFrame:

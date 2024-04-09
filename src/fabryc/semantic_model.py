@@ -3,9 +3,9 @@ from pathlib import Path
 
 import pandas as pd
 
-from fabric.auth import get_token
-from fabric.clients.rest import FabricRestClient, PowerBIRestClient
-from fabric.workspace import Workspace
+from fabryc.auth import get_token
+from fabryc.clients.rest import FabricRestClient, PowerBIRestClient
+from fabryc.workspace import Workspace
 
 Table = namedtuple(
     "Table",

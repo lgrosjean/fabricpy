@@ -1,8 +1,8 @@
 import pandas as pd
 
-from fabric.auth import get_token
-from fabric.clients.rest import FabricRestClient, PowerBIRestClient
-from fabric.clients.xmla import XMLAClient
+from fabryc.auth import get_token
+from fabryc.clients.rest import FabricRestClient, PowerBIRestClient
+from fabryc.clients.xmla import XMLAClient
 
 
 class Workspace:

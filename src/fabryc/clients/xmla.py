@@ -1,7 +1,7 @@
 """Class for interacting with the Power BI XMLA API."""
 
-from fabric.auth import get_token
-from fabric.setup import setup
+from fabryc.auth import get_token
+from fabryc.setup import setup
 
 setup()
 
@@ -41,4 +41,3 @@ class XMLAClient:
         database = self.get_database_by_name(workspace_name, database_name)
         TOM.TmdlSerializer.SerializeDatabaseToFolder(database, dst)
 
-    
